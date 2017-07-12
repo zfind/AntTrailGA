@@ -22,7 +22,7 @@ public class BoardPane extends GridPane {
 
         for (int y = 0; y < board.length; y++) {
             for (int x = 0; x < board[0].length; x++) {
-                Tile tile = new Tile(board[y][x], 30, 30);
+                Tile tile = new Tile(board[y][x], 20, 20);
                 this.add(tile, x, y);
                 tiles[y][x] = tile;
             }

@@ -30,9 +30,9 @@ public class Tile extends StackPane {
 
         this.ant = new Polygon();
         ant.getPoints().addAll(
-                0.0, 5.0,
-                20.0, 10.0,
-                0.0, 15.0);
+                0.0, 2.5,
+                10.0, 5.0,
+                0.0, 7.5);
         ant.setStroke(Color.BLACK);
         ant.setFill(Color.RED);
     }
